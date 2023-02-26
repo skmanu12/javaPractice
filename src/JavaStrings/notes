@@ -1,0 +1,7 @@
+1. There are three ways to compare String in Java:
+
+By Using equals() Method
+By Using == Operator
+By compareTo() Method
+
+2. 

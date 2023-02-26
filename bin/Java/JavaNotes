@@ -1,0 +1,54 @@
+Object and Class:
+1. Ways to initialize object
+-By reference
+-By Method
+-By Constructor
+-----------------------------------
+
+2. What are the different ways to create an object in Java?
+-By new keyword
+-By newInstance() method
+-By clone() method
+-By DeSerialization
+-By factory method etc.
+
+3. Method:
+-User Defined
+-Pre-Defined
+---------------------
+4. Constructor
+-It construct the values at the time of object creation
+-Two types of constructor-Default(no argue) and with argue constructor
+-Constructor name must be same as class name
+-No return type
+-Constructor can not be abstract,static, final
+-We can use access modifier for constructor public, protected,private or default-it controls the object creation.
+-If there is no constructor in a class, compiler automatically creates a default constructor...
+--------------------------------------------------
+5. Java Constructor <=> Java Method
+-A constructor is used to initialize the state of an object.	
+-A method is used to expose the behavior of an object.
+
+-A constructor must not have a return type.	                
+-A method must have a return type.
+
+-The constructor is invoked implicitly.	                    
+-The method is invoked explicitly.
+
+-The Java compiler provides a default constructor if you don't have any constructor in a class.	
+-The method is not provided by the compiler in any case.
+
+-The constructor name must be same as the class name.	
+-The method name may or may not be same as the class name.
+-------------------------------------------------------------
+6. Java Constructor	Java Method
+=>There are many ways to copy the values of one object into another in Java. They are:
+
+-By constructor
+-By assigning the values of one object into another
+-By clone() method of Object class
+-------------------------------------------------------------
+7. Static Keyword
+
+
+

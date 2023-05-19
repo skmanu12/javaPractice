@@ -20,6 +20,7 @@ System.out.println("== operator");
 System.out.println(s1==s2);
 System.out.println(s1==s3);
 System.out.println(s3==s5);
+System.out.println(s3==s2);
 	}
 
 }

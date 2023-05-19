@@ -6,7 +6,7 @@ public class countDuplicateword {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String str = "The Java programing is java programing The is";
+		String str = "The Java programing is java programing The java";
 		String str1 = str.toLowerCase();
 		String words[] = str1.split(" ");
 

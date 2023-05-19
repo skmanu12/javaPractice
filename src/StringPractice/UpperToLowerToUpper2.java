@@ -6,14 +6,13 @@ public class UpperToLowerToUpper2 {
 		// TODO Auto-generated method stub
 		String str = "Great Place";
 
-		for (int i = 0; i < str.length(); i++) {
-			if (Character.isLowerCase(str.charAt(i))) {
-				System.out.print(Character.toUpperCase(str.charAt(i)));
-			} else if (Character.isUpperCase(str.charAt(i))) {
-				System.out.print(Character.toLowerCase(str.charAt(i)));
-
-			}
+	for(int i=0;i<str.length();i++) {
+		if(Character.isLowerCase(str.charAt(i))) {
+			System.out.print(Character.toUpperCase(str.charAt(i)));
+		}else if(Character.isUpperCase(str.charAt(i))) {
+			System.out.print(Character.toLowerCase(str.charAt(i)));
 		}
+	}
 	}
 
 }

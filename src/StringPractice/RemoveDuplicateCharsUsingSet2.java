@@ -8,17 +8,16 @@ public class RemoveDuplicateCharsUsingSet2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String str = "JavaJ2EE";
-		char[] ch = str.toCharArray();
-		Set s = new HashSet();
-		StringBuilder sb = new StringBuilder();
-		for (char c : ch) {
-			if (!s.contains(c)) {
-				s.add(c);
-				sb.append(c);
-			}
-
+		Set s=new HashSet();
+		StringBuilder sb=new StringBuilder();
+		for(int i=0;i<str.length();i++) {
+		if(!s.contains(str.charAt(i))) {
+			s.add(str.charAt(i));
+			sb.append(str.charAt(i));
 		}
-		System.out.println(sb);
+			
+		}
+		System.out.println(s);
 	}
 
 }

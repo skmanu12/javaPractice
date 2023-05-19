@@ -11,9 +11,9 @@ public class pattern_2_1 {
 		 * 4 8 12 16 
 		 * 5 10 15 20 15
 		 */
-for(int i=1;i<=5;i++) {
+for(int i=1;i<5;i++) {
 	for(int j=1;j<=i;j++) {
-		System.out.print(i*j+" ");
+	System.out.print(i*j+" ");
 	}
 	System.out.println();
 }

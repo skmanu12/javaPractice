@@ -1,4 +1,4 @@
-package ProgramsOnCollections;
+ package ProgramsOnCollections;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -15,6 +15,8 @@ System.out.println(al);
 String[] array=al.toArray(new String[al.size()]);
 System.out.println(Arrays.toString(array));
 
+String[] arr=al.toArray(new String[al.size()]);
+String[] arr1=al.toArray(new String[al.size()]);
 	}
 
 }

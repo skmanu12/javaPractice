@@ -7,7 +7,9 @@ Student1(int i,String n){
 	id=i;
 	name=n;
 }
-Student1(){}
+Student1(){
+	
+}
 void display() {
 	System.out.println(id+" "+name);
 }

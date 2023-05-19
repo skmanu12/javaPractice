@@ -9,7 +9,8 @@ public class PrintVowels {
 		String c = "";
 		for (int i = 0; i < str.length(); i++) {
 			// Check character is vowel or not
-			if (str.charAt(i) == 'a' || str.charAt(i) == 'e' || str.charAt(i) == 'i' || str.charAt(i) == 'o'
+			if (str.charAt(i) == 'a' || str.charAt(i) == 'e' || str.charAt(i) == 'i' 
+					|| str.charAt(i) == 'o'
 					|| str.charAt(i) == 'u') {
 				c = c + " " + str.charAt(i);
 

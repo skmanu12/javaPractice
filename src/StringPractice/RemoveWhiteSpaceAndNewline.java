@@ -9,7 +9,7 @@ public class RemoveWhiteSpaceAndNewline {
 		String noWhietSpace = "";
 		for (int i = 0; i < abc.length(); i++) {
 			if (abc.charAt(i) != ' ' && abc.charAt(i) != '\t') {
-				noWhietSpace = noWhietSpace + abc.charAt(i);
+				noWhietSpace += abc.charAt(i);
 			}
 		}
 		System.out.print(noWhietSpace);

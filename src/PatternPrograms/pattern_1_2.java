@@ -4,7 +4,7 @@ public class pattern_1_2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		  /* 5432*
+	  /* 5432*
 		 543*1
 		 54*21
 		 5*321
@@ -20,7 +20,6 @@ public class pattern_1_2 {
 			}
 			System.out.println();
 		}
-		
 	}
 
 }

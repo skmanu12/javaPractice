@@ -24,6 +24,7 @@ public class ArrayList1 {
 			System.out.println(str);
 
 		}*/
+	
 		list.set(1, "C");
 		list.add("E");
 		list.add("D");

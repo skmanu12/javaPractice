@@ -18,7 +18,7 @@ public class HashSet1 {
 		set.add("Three");
 		set.add("Four");
 		set.add("Five");
-		set.add("Five");
+		set.add(null);
 		//Does not maintains insertion order
 		System.out.println(set);
 		//Avoid duplicate elements

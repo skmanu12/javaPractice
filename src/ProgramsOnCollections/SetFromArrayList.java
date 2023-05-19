@@ -12,7 +12,7 @@ public class SetFromArrayList {
          list.add("Ravi");  
          list.add("Vijay");  
          list.add("Ajay");  
-         
+         System.out.println(list);
          HashSet<String> set=new HashSet<String>(list);
          set.add("Ashoka");
          Iterator it=set.iterator();

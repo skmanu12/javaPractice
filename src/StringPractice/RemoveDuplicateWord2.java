@@ -7,20 +7,16 @@ public class RemoveDuplicateWord2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String str = "java mava java programing";
-		String str1 = str.toLowerCase();
-		String[] words = str1.split(" ");
-		Set s=new HashSet();
-		StringBuilder sb=new StringBuilder();
-		for(String wb:words) {
-			if(!s.contains(wb)) {
-				s.add(wb);
-				sb.append(" "+wb);
+		String str = "java mava java programing".toLowerCase();
+		String[] words = str.split(" ");
+		Set s = new HashSet();
+		for (int i = 0; i < words.length; i++) {
+			if (!s.contains(words[i])) {
+				s.add(words[i]);
 			}
-			
+
 		}
-		System.out.println(sb);
-		
+		System.out.println(s);
 	}
 
 }

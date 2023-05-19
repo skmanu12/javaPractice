@@ -2,6 +2,7 @@ package ProgramsOnCollections;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 
 public class HashMap1 {
 
@@ -14,6 +15,9 @@ map.put(103, "Sharan");
 map.put(101, "Grams");
 for(Map.Entry m:map.entrySet()) {
 	System.out.println(m.getKey()+"-"+m.getValue());
+}
+for(Map.Entry<Integer, String> m:map.entrySet()) {
+	
 }
 map.putIfAbsent(104, "Jeevan");
 System.out.println("After putIfAbsent:");

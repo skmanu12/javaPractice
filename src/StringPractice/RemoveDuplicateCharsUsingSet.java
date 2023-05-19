@@ -9,21 +9,33 @@ public class RemoveDuplicateCharsUsingSet {
 		// TODO Auto-generated method stub
 		String str="manappa";
 		//char[] chars = str.toCharArray();
+		
 		//System.out.println(chars);
-		Set s=new HashSet();
 		StringBuilder sb=new StringBuilder();
+		Set s=new HashSet();
 		
 		for(int i=0;i<str.length();i++) {
-			if(!s.contains(str.charAt(i))) {
-				s.add(str.charAt(i));
-				sb.append(str.charAt(i));
+			int count=1;
+			for(int j=i+1;j<str.length();j++) {
+				
+				if(str.charAt(i)==str.charAt(j)) {
+					count++;
+				
+				}
+			
+			}
+			if(count>1) {
+				
+					System.out.println(s+":"+count);
+				}
 				
 			}
+		
+			
+			
 			
 		}
 		
-		//System.out.println(s);
-		System.out.println(sb);
 }
 	
-}
+
